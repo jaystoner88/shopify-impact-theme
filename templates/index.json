@@ -471,9 +471,10 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/rn-image_picker_lib_temp_125d6f7d-d5f4-4543-a870-251ac840d4f2.webp",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify://products/bold-red-baby-tee-for-women-trendy-comfortable-fit",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
