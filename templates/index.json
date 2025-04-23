@@ -372,23 +372,51 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_zjJXcH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_a9a4dX": {
+          "type": "heading",
+          "settings": {
+            "text": "NEW IN RED BABY TEES",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_a9a4dX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
-        "item-1": {
-          "type": "image",
+        "video_MmCFPx": {
+          "type": "video",
           "settings": {
-            "title": "Promote your products",
+            "video": "shopify://files/videos/belta-crop-top-red.mp4",
+            "external_video_url": "",
+            "show_video_controls": false,
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify://products/belta-red-crop-top-baby-tee",
             "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#cf0000",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -461,7 +489,7 @@
         }
       },
       "block_order": [
-        "item-1",
+        "video_MmCFPx",
         "item-2",
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
@@ -918,6 +946,7 @@
     "featured-collection",
     "impact-text",
     "image-with-text-overlay",
+    "rich_text_zjJXcH",
     "media-grid",
     "before-after-image",
     "press",
