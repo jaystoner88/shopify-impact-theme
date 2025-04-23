@@ -76,6 +76,10 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "razorpay_trusted_business_rtb_widget_Lh7m86": {
+          "type": "shopify://apps/razorpay-trusted-business/blocks/rtb-widget/a54835d4-011c-47fe-94db-3731e39152d6",
+          "settings": {}
         }
       },
       "block_order": [
@@ -89,7 +93,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "razorpay_trusted_business_rtb_widget_Lh7m86"
       ],
       "settings": {
         "full_width": true,
