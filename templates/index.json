@@ -37,6 +37,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/homepage_banner_desktop.webp",
+            "mobile_image": "shopify://shop_images/dragonball-z-goku-super-saiyan-black-tee.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -62,11 +64,11 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "auto",
+        "image_size": "lg",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 6,
+        "cycle_speed": 4,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
