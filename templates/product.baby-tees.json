@@ -46,6 +46,18 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_9Ab4kC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- sections/product-tags.liquid -->\n<div class=\"product-tags\">\n  <span class=\"tag-box\">100% PREMIUM COTTON</span>\n  <span class=\"tag-box\">FITTED BABY TEES</span>\n</div>\n\n<style>\n.product-tags {\n  display: flex;\n  gap: 12px;\n  flex-wrap: wrap;\n  margin-top: 16px;\n}\n\n.tag-box {\n  padding: 6px 12px;\n  border: 1px solid #333;\n  font-size: 14px;\n  color: #333;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n</style>"
+          }
+        },
+        "liquid_awixDa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- START: Coupon Badges -->\n<div class=\"zyra-coupon-container\" style=\"all: initial; font-family: Arial, sans-serif;\">\n  <div style=\"display: flex; align-items: center;\">\n    <!-- Sales Badge (dynamic number only) -->\n    <div\n      id=\"sales-badge\"\n      style=\"\n        background-color: #f0fff3;\n        color: #333;\n        padding: 10px 16px;\n        border-radius: 6px;\n        font-weight: bold;\n        box-shadow: 0 2px 6px rgba(0,0,0,0.1);\n      \"\n    >\n      ...\n    </div>\n  </div>\n</div>\n\n<script>\n  // Generate a random number between 200 and 1298\n  var soldCount = Math.floor(Math.random() * (1298 - 200 + 1)) + 200;\n\n  // Decrease the sold count by 30%\n  soldCount = Math.floor(soldCount * 0.7);\n  \n  // Insert that number into the sales badge\n  var salesBadge = document.getElementById('sales-badge');\n  if (salesBadge) {\n    salesBadge.textContent = soldCount + '+ Sold';\n  }\n</script>\n<!-- END: Coupon Badges -->"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -90,6 +102,8 @@
         "rating",
         "payment_terms",
         "separator",
+        "liquid_9Ab4kC",
+        "liquid_awixDa",
         "description",
         "variant_picker",
         "quantity_selector",
