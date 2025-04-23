@@ -110,6 +110,12 @@
           "settings": {
             "liquid": "<style>\n  .discount-banner-wrapper {\n    background-color: #1A1A1A;\n    padding: 16px;\n    display: flex;\n    justify-content: center;\n    border-radius: 9px; /* Rounded corners for the whole section */\n    overflow: hidden; /* Ensures content like the image respects the corners */\n    margin: 20px auto; /* Optional: adds spacing around section */\n    max-width: 1000px; /* Optional: controls width */\n  }\n\n  .discount-banner {\n    width: 100%;\n    text-align: center;\n  }\n\n  .discount-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>\n\n<div class=\"discount-banner-wrapper\">\n  <div class=\"discount-banner\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0610/8466/3883/files/usps.png?v=1745068990\" alt=\"Sale Banner\">\n  </div>\n</div>"
           }
+        },
+        "share_buttons_eMd6RT": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
         }
       },
       "block_order": [
@@ -129,7 +135,8 @@
         "buy_buttons",
         "razorpay_trusted_business_rtb_widget_Lh7m86",
         "liquid_WmGx9x",
-        "liquid_FwbfX6"
+        "liquid_FwbfX6",
+        "share_buttons_eMd6RT"
       ],
       "settings": {
         "full_width": true,
