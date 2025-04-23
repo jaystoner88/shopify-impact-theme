@@ -427,9 +427,10 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/55B347B4-E784-4203-8E1A-73AA4ED2B94E.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify://products/deadbeat-girlfriend-baby-tee-bold-statement-crop-top-color-red",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
@@ -448,9 +449,10 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/6350BA98-F22D-4F40-9A32-C4D2DC61A8F5.jpg",
+            "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify://products/obsessed-with-me-red-baby-tee-trendy-statement-crop-top",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 1,
