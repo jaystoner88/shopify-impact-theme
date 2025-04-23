@@ -196,7 +196,7 @@
           "type": "collection",
           "settings": {
             "collection": "baby-tees",
-            "image": "shopify://shop_images/AAD65657-8446-4223-9D14-745A881D0AAA.webp",
+            "image": "shopify://shop_images/C8BB4A5B-915B-4000-BD7B-C365B5B8F31E.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -210,7 +210,8 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "t-shirts-for-men",
+            "collection": "t-shirt-for-women",
+            "image": "shopify://shop_images/file_641aafa5-df3f-4917-9d32-5501473ddbfd.jpg",
             "subheading": "",
             "title": "",
             "url": "",
