@@ -17,13 +17,29 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "5% OFF on first order with code: FIRST5",
+            "url": ""
+          }
+        },
+        "message_qyzxWx": {
+          "type": "message",
+          "settings": {
+            "text": "FREE Shipping + COD Available",
+            "url": ""
+          }
+        },
+        "message_YHBNeL": {
+          "type": "message",
+          "settings": {
+            "text": "UPTO 60% OFF at checkout",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_qyzxWx",
+        "message_YHBNeL"
       ],
       "settings": {
         "enable_sticky": false,
