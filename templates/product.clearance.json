@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_3Jni6Y": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .discount-banner {\n    width: 100%;\n    max-width: 100%;\n    text-align: center;\n  }\n\n  .discount-banner img {\n    width: 100%; /* Ensures full width */\n    height: auto; /* Maintains aspect ratio */\n    display: block; /* Removes extra spacing */\n  }\n</style>\n\n<div class=\"discount-banner\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/clearance-sale.jpg?v=1742072612\" alt=\"Sale Banner\">\n</div>"
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {}
@@ -62,6 +68,12 @@
             "size_chart_page": ""
           }
         },
+        "liquid_jAVNpy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Collapsible Size Guide with Shining Effect -->\n<style>\n  @keyframes shiningGlow {\n    0% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); }\n    50% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }\n    100% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); }\n  }\n\n  .size-guide-collapsible {\n    margin: 1rem 0;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n  }\n\n  .size-guide-summary {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    cursor: pointer;\n    padding: 1rem;\n    background: #fff8dc;\n    font-weight: bold;\n    border-radius: 4px 4px 0 0;\n    animation: shiningGlow 2s infinite;\n  }\n\n  .size-guide-summary .arrow-icon {\n    font-size: 1.25rem;\n    transition: transform 0.3s ease;\n  }\n\n  details[size-guide-collapsible][open] .arrow-icon {\n    transform: rotate(90deg);\n  }\n\n  .size-guide-content {\n    padding: 1rem;\n    background-color: #fff;\n    border-top: 1px solid #ddd;\n    border-radius: 0 0 4px 4px;\n  }\n\n  .size-guide-content table {\n    width: 100%;\n    border-collapse: collapse;\n  }\n\n  .size-guide-content th, \n  .size-guide-content td {\n    border: 1px solid #ddd;\n    padding: 8px;\n    text-align: center;\n  }\n\n  .size-guide-content th {\n    background: #f9f9f9;\n    font-weight: bold;\n  }\n</style>\n\n<details class=\"size-guide-collapsible\" size-guide-collapsible>\n  <summary class=\"size-guide-summary\">\n    <span>Size Guide</span>\n    <span class=\"arrow-icon\">&rsaquo;</span>\n  </summary>\n\n  <div class=\"size-guide-content\">\n    <table>\n      <thead>\n        <tr>\n          <th>Size</th>\n          <th>Length (inches)</th>\n          <th>Chest (inches)</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>XS</td>\n          <td>15.5</td>\n          <td>32</td>\n        </tr>\n        <tr>\n          <td>S</td>\n          <td>16.5</td>\n          <td>34</td>\n        </tr>\n        <tr>\n          <td>M</td>\n          <td>17.5</td>\n          <td>36</td>\n        </tr>\n        <tr>\n          <td>L</td>\n          <td>18.5</td>\n          <td>38</td>\n        </tr>\n        <tr>\n          <td>XL</td>\n          <td>19.5</td>\n          <td>40</td>\n        </tr>\n        <tr>\n          <td>2XL</td>\n          <td>20.5</td>\n          <td>42</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</details>\n<!-- End of Collapsible Size Guide -->"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -77,12 +89,19 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_YfPH8x": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); padding: 15px; border-radius: 10px; text-align: center; color: #fff; font-weight: bold; font-size: 16px;\">\n    These crop tops have a relaxed fit with a loose bottom. <br> \n    Check the size chart before ordering Clearance sale items. <br><br>\n    <strong>CHECK CUSTOMER VIDEOS BELOW TO SEE EXACTLY HOW THE CROP TOPS LOOK!</strong>\n</div>"
+          }
+        },
         "razorpay_trusted_business_rtb_widget_Lh7m86": {
           "type": "shopify://apps/razorpay-trusted-business/blocks/rtb-widget/a54835d4-011c-47fe-94db-3731e39152d6",
           "settings": {}
         }
       },
       "block_order": [
+        "liquid_3Jni6Y",
         "vendor",
         "title",
         "badges",
@@ -92,8 +111,10 @@
         "separator",
         "description",
         "variant_picker",
+        "liquid_jAVNpy",
         "quantity_selector",
         "buy_buttons",
+        "liquid_YfPH8x",
         "razorpay_trusted_business_rtb_widget_Lh7m86"
       ],
       "settings": {
