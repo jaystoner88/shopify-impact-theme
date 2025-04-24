@@ -254,13 +254,29 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_zzCHW4": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories-for-women",
+            "image": "shopify://shop_images/hard-times-hard-techno-white-cap.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-2",
         "collection-3",
-        "collection_g8gwnD"
+        "collection_g8gwnD",
+        "collection_zzCHW4"
       ],
       "settings": {
         "full_width": true,
