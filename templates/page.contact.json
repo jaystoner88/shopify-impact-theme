@@ -48,10 +48,51 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "rich_text_xyfD8U": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PAQpWf": {
+          "type": "heading",
+          "settings": {
+            "text": "Get In Touch",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "subheading_zxW6Yh": {
+          "type": "subheading",
+          "settings": {
+            "text": "We’re here to help you drip in style"
+          }
+        },
+        "richtext_EPA9NP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Got a question about your order, need help with sizing, or just want to say hey? We’d love to hear from you!</p><p><strong>📞 WhatsApp us:</strong> <a href=\"https://wa.me/918619300894\" title=\"https://wa.me/918619300894\">+91 8619300894</a><br/><br/><strong>📧 Email us:</strong> <a href=\"mailto:hello@zyradrip.com\" title=\"mailto:hello@zyradrip.com\">hello@zyradrip.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PAQpWf",
+        "subheading_zxW6Yh",
+        "richtext_EPA9NP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "contact"
+    "contact",
+    "rich_text_xyfD8U"
   ]
 }
