@@ -517,24 +517,11 @@
             "title": "Porsche 911 GT3 RS Oversized Unisex T-Shirt",
             "content": ""
           }
-        },
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
         }
       },
       "block_order": [
         "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
+        "1664424434f5b7d0e0-1"
       ],
       "settings": {
         "full_width": true,
