@@ -31,7 +31,7 @@
         "message_YHBNeL": {
           "type": "message",
           "settings": {
-            "text": "UPTO 60% OFF at checkout",
+            "text": "24-48 Hours Delivery in BLR - Super Fast Across India",
             "url": ""
           }
         }
@@ -43,9 +43,9 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
+        "scrolling_speed": 16,
         "background": "#1a1a1a",
         "background_gradient": "",
         "text_color": "#ffffff"
