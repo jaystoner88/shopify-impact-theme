@@ -154,7 +154,7 @@
       "settings": {
         "recommendations_count": 8,
         "products": [],
-        "full_width": true,
+        "full_width": false,
         "stack_products": true,
         "show_progress_bar": false,
         "products_per_row_mobile": "2",
