@@ -33,8 +33,8 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "liquid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"HabZGR_MmmwzJUdhUBl16Q\"></div>",
         "background": "",
         "background_gradient": "",
