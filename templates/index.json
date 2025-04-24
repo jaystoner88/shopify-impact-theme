@@ -99,7 +99,7 @@
             "link_text": "Narcissist Baby Tee",
             "link_url": "shopify://products/narcissist-oh-and-icon-baby-tee-crop-top",
             "background": "",
-            "text_color": "#f83a3a",
+            "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -146,11 +146,12 @@
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/graphic-baby-tee.jpg",
             "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
+            "link_text": "Graphic Baby Tee",
+            "link_url": "shopify://products/graphic-tee-for-women-small-boobs-big-dreams",
             "background": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -165,7 +166,7 @@
       ],
       "settings": {
         "full_width": false,
-        "block_size": "medium",
+        "block_size": "large",
         "subheading": "",
         "title": "THE BESTSELLERS",
         "content": "",
