@@ -29,30 +29,103 @@
         "overlay_opacity": 30
       }
     },
-    "featured_collection_3UbwKk": {
-      "type": "featured-collection",
-      "name": "Featured collection",
+    "collection_list_R7Tg86": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_tmDFza": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-samurai",
+            "subheading": "",
+            "title": "Samurai",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_WzzeaF": {
+          "type": "collection",
+          "settings": {
+            "collection": "race-club-tees",
+            "subheading": "",
+            "title": "Gym Wear",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fXdyWL": {
+          "type": "collection",
+          "settings": {
+            "collection": "anime-inpired-oversized-tees",
+            "subheading": "",
+            "title": "Gym Wear",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_fizaHy": {
+          "type": "collection",
+          "settings": {
+            "collection": "ironcult-fit-wear-by-zyra-drip",
+            "subheading": "",
+            "title": "Gym Wear",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ymwdGj": {
+          "type": "collection",
+          "settings": {
+            "collection": "oversized-t-shirts",
+            "subheading": "",
+            "title": "Complete Oversized Collection",
+            "url": "",
+            "heading_tag": "h5",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_tmDFza",
+        "collection_WzzeaF",
+        "collection_fXdyWL",
+        "collection_fizaHy",
+        "collection_ymwdGj"
+      ],
+      "name": "Collection list",
       "settings": {
-        "collection": "",
-        "products": [],
         "full_width": true,
-        "stack_products": false,
+        "stack_collections": false,
+        "collections_per_row": 5,
         "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "",
         "content": "",
-        "link_url": "",
+        "link_url": "shopify://collections/oversized-t-shirts",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "heading_gradient": ""
       }
     },
     "main": {
@@ -74,7 +147,7 @@
   },
   "order": [
     "banner",
-    "featured_collection_3UbwKk",
+    "collection_list_R7Tg86",
     "main"
   ]
 }
