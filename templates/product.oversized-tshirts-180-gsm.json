@@ -99,6 +99,34 @@
           "type": "shopify://apps/razorpay-trusted-business/blocks/rtb-widget/a54835d4-011c-47fe-94db-3731e39152d6",
           "settings": {}
         },
+        "offer_qACpjL": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/commercial.png",
+            "icon_width": 36,
+            "title": "7-Day Return & Exchange",
+            "content": "<p>Enjoy a hassle-free 7-day return & exchange on all Zyra Drip oversized tees!<br/><br/></p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "offer_XmwfbX": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/cash-on-delivery.png",
+            "icon_width": 36,
+            "title": "COD Available across India",
+            "content": "<p>COD available | Fast & Free Shipping on All Prepaid Orders!<br/></p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
         "liquid_ztyqPF": {
           "type": "liquid",
           "settings": {
@@ -128,6 +156,8 @@
         "quantity_selector",
         "buy_buttons",
         "razorpay_trusted_business_rtb_widget_Lh7m86",
+        "offer_qACpjL",
+        "offer_XmwfbX",
         "liquid_ztyqPF",
         "liquid_pffLtp"
       ],
