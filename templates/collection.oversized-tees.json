@@ -115,6 +115,9 @@
         "collection_fizaHy",
         "collection_ymwdGj"
       ],
+      "custom_css": [
+        ".small-image {width: 80px; /* Adjust size as needed */ height: auto; /* Maintains original aspect ratio */ display: block; margin: 0 auto; /* Center the image horizontally */}"
+      ],
       "name": "Collection list",
       "settings": {
         "full_width": false,
@@ -125,7 +128,7 @@
         "title": "",
         "content": "",
         "link_url": "shopify://collections/oversized-t-shirts",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
