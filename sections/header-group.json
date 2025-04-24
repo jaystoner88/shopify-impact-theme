@@ -17,7 +17,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "5% OFF on first order with code: FIRST5",
+            "text": "Buy Any 2 Baby Tees at ₹699",
             "url": ""
           }
         },
@@ -31,7 +31,7 @@
         "message_YHBNeL": {
           "type": "message",
           "settings": {
-            "text": "24-48 Hours Delivery in BLR - Super Fast Across India",
+            "text": "24-48 Hours Delivery in BLR - Fast Across India",
             "url": ""
           }
         }
