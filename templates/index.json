@@ -137,8 +137,8 @@
             "stretch_image": true,
             "link_text": "Belta Baby Tee",
             "link_url": "shopify://products/belta-red-crop-top-baby-tee",
-            "background": "#f83a3a",
-            "text_color": "#ffffff",
+            "background": "",
+            "text_color": "#f83a3a",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
