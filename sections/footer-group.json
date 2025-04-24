@@ -115,11 +115,27 @@
             "menu": "footer",
             "show_menu_title": true
           }
+        },
+        "links_APJXyX": {
+          "type": "links",
+          "settings": {
+            "menu": "my-account",
+            "show_menu_title": true
+          }
+        },
+        "links_RYp8C9": {
+          "type": "links",
+          "settings": {
+            "menu": "zyra-drip-international",
+            "show_menu_title": true
+          }
         }
       },
       "block_order": [
         "newsletter",
-        "links"
+        "links",
+        "links_APJXyX",
+        "links_RYp8C9"
       ],
       "settings": {
         "show_social_media": true,
