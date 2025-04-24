@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
       }
@@ -20,8 +21,8 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "liquid": "<style>\n  .discount-banner {\n    width: 100%;\n    max-width: 100%;\n    text-align: center;\n  }\n\n  .discount-banner img {\n    width: 100%; /* Ensures full width */\n    height: auto; /* Maintains aspect ratio */\n    display: block; /* Removes extra spacing */\n  }\n\n  /* Hide mobile banner by default */\n  .discount-banner .mobile-banner {\n    display: none;\n  }\n\n  /* Hide desktop banner on mobile */\n  @media only screen and (max-width: 767px) {\n    .discount-banner .desktop-banner {\n      display: none;\n    }\n\n    .discount-banner .mobile-banner {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"discount-banner\">\n  <!-- Desktop Banner -->\n  <img class=\"desktop-banner\" src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/spotlight-banner.jpg?v=1741871664\" alt=\"Sale Banner\">\n\n  <!-- Mobile Banner -->\n  <img class=\"mobile-banner\" src=\"https://cdn.shopify.com/s/files/1/0919/5051/4493/files/spotlight-banner-mobile.jpg?v=1741873021\" alt=\"Sale Banner\">\n</div>",
         "background": "",
         "background_gradient": "",
