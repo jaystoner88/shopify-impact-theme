@@ -36,6 +36,7 @@
           "type": "collection",
           "settings": {
             "collection": "the-samurai",
+            "image": "shopify://shop_images/demon-print_ff20d7ae-f571-4d16-ad4d-f0c3eaa2ad68.jpg",
             "subheading": "",
             "title": "Samurai",
             "url": "",
@@ -50,8 +51,9 @@
           "type": "collection",
           "settings": {
             "collection": "race-club-tees",
+            "image": "shopify://shop_images/need-money-for-porche-white-t-shirt-back.jpg",
             "subheading": "",
-            "title": "Gym Wear",
+            "title": "Race Club Tees",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-center text-center",
@@ -64,8 +66,9 @@
           "type": "collection",
           "settings": {
             "collection": "anime-inpired-oversized-tees",
+            "image": "shopify://shop_images/behind-anime-oversized-tee-front._3e8b7a0d-b36f-4ba2-a608-9ee99e33a31f.jpg",
             "subheading": "",
-            "title": "Gym Wear",
+            "title": "Anime Inspired",
             "url": "",
             "heading_tag": "h5",
             "text_position": "place-self-center text-center",
@@ -78,6 +81,7 @@
           "type": "collection",
           "settings": {
             "collection": "ironcult-fit-wear-by-zyra-drip",
+            "image": "shopify://shop_images/180gsm-darkgrey-fitness-streetwear_jpg_9fb03e7c-9d31-4fe1-b30a-23f86269633b.jpg",
             "subheading": "",
             "title": "Gym Wear",
             "url": "",
@@ -92,6 +96,7 @@
           "type": "collection",
           "settings": {
             "collection": "oversized-t-shirts",
+            "image": "shopify://shop_images/file_2edb10bd-1a6b-49c8-a7f8-7446724da478.jpg",
             "subheading": "",
             "title": "Complete Oversized Collection",
             "url": "",
