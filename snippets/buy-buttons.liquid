@@ -40,57 +40,44 @@ Supported variables
   {%- endif -%}
 
   <div class="v-stack gap-4">
-    {%- if product.gift_card? and show_gift_card_recipient -%}
-      <gift-card-recipient class="gift-card-recipient v-stack gap-3">
-        {%- assign checkbox_label = 'gift_card.recipient.checkbox' | t -%}
-        {%- render 'checkbox', label: checkbox_label, name: 'properties[__shopify_send_gift_card_to_recipient]' -%}
-
-        <div class="gift-card-recipient__fields js:hidden">
-          <div class="fieldset">
-            {%- liquid
-              assign recipient_email_label = 'gift_card.recipient.email_label' | t
-              render 'input', type: 'email', label: recipient_email_label, name: 'properties[Recipient email]', value: form.email, required: true
-
-              assign recipient_name_label = 'gift_card.recipient.name_label' | t
-              render 'input', label: recipient_name_label, name: 'properties[Recipient name]', value: form.name
-
-              assign message_label = 'gift_card.recipient.message_label' | t
-              render 'input', label: message_label, name: 'properties[Recipient message]', value: form.message, multiline: 3, maxlength: 200, show_max_characters_count: true
-            -%}
-          </div>
-        </div>
-      </gift-card-recipient>
-    {%- endif -%}
-
     <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ form_id }}">
-      {%- render 'button', content: button_content, type: 'submit', size: button_size, disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color -%}
+      
+      <!-- ATC Button -->
+      {%- render 'button',
+        content: button_content,
+        type: 'submit',
+        size: button_size,
+        disabled: button_disabled,
+        secondary: show_payment_button,
+        subdued: button_disabled,
+        background: atc_button_background,
+        text_color: atc_button_text_color
+      -%}
 
+      <!-- Shopify Dynamic Payment Button -->
       {%- if show_payment_button -%}
-        {%- if product.selected_or_first_available_variant.available -%}
-          <!-- Shiprocket Fastrr Integration -->
-          <div class="shiprocket-headless" data-type="product"></div>
-          <input type="hidden" value="true" id="fastrrCollectionPage" />
-          <input type="hidden" value="{{ product.url }}" name="productUrl" />
-        {%- endif -%}
-
         {{- form | payment_button -}}
-
-        <style>
-          #shopify-section-{{ section.id }} .shopify-payment-button {
-          {%- unless product.selected_or_first_available_variant.available -%}
-            display: none;
-          {%- endunless -%}
-
-          {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
-            --button-background: {{ payment_button_background.rgb }};
-          {%- endif -%}
-
-          {%- if payment_button_text_color != blank and payment_button_text_color != 'rgba(0,0,0,0)' -%}
-            --button-text-color: {{ payment_button_text_color.rgb }};
-          {%- endif -%}
-          }
-        </style>
       {%- endif -%}
+
+      <!-- Shiprocket Fastrr Button -->
+      {%- if product.selected_or_first_available_variant.available -%}
+        <div class="shiprocket-headless" data-type="product"></div>
+        <input type="hidden" id="fastrrCollectionPage" value="true" />
+        <input type="hidden" name="productUrl" value="{{ product.url }}" />
+      {%- endif -%}
+
+      <!-- Optional Styling -->
+      <style>
+        #shopify-section-{{ section.id }} .shopify-payment-button {
+          {% if payment_button_background != blank %}
+            --button-background: {{ payment_button_background.rgb }};
+          {% endif %}
+          {% if payment_button_text_color != blank %}
+            --button-text-color: {{ payment_button_text_color.rgb }};
+          {% endif %}
+        }
+      </style>
+
     </buy-buttons>
   </div>
 {%- endform -%}
