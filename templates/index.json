@@ -228,12 +228,13 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "tote-bags",
+            "collection": "t-shirts-for-men",
+            "image": "shopify://shop_images/son-goku-oversized-t-shirt-behind.jpg",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
