@@ -199,12 +199,12 @@
           "type": "collection",
           "settings": {
             "collection": "baby-tees",
-            "image": "shopify://shop_images/C8BB4A5B-915B-4000-BD7B-C365B5B8F31E.jpg",
+            "image": "shopify://shop_images/baby-tee-for-woman-black.jpg",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
@@ -214,12 +214,12 @@
           "type": "collection",
           "settings": {
             "collection": "t-shirt-for-women",
-            "image": "shopify://shop_images/file_641aafa5-df3f-4917-9d32-5501473ddbfd.jpg",
+            "image": "shopify://shop_images/hot-girls-like-techno.jpg",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
