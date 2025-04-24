@@ -77,14 +77,14 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "24-48 Hrs Delivery in Bengaluru",
+        "text": "24-48 Hrs Delivery in BLR",
         "text_size": "small",
-        "text_style": "fill",
+        "text_style": "outline",
         "scrolling_mode": "auto",
         "scrolling_speed": 8,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#f83a3a",
         "text_gradient": ""
       }
     },
