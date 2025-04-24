@@ -66,7 +66,7 @@
         "opening_from": "bottom",
         "layout": "drawer",
         "show_social_media": true,
-        "show_locale_selector": true,
+        "show_locale_selector": false,
         "show_country_selector": false,
         "show_country_flag": false,
         "show_country_name": false,
