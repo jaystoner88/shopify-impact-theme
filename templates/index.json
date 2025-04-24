@@ -243,12 +243,13 @@
         "collection_g8gwnD": {
           "type": "collection",
           "settings": {
-            "collection": "t-shirts-for-men",
+            "collection": "accessories-for-men",
+            "image": "shopify://shop_images/black-cap-man.jpg",
             "subheading": "",
             "title": "",
             "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
