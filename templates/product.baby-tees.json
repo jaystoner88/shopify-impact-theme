@@ -138,6 +138,7 @@
         "liquid_WmGx9x",
         "liquid_FwbfX6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
