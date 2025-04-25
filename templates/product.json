@@ -96,6 +96,7 @@
         "buy_buttons",
         "razorpay_trusted_business_rtb_widget_Lh7m86"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
