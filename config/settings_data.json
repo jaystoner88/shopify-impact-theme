@@ -43,6 +43,7 @@
     "show_page_transition": true,
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
+    "color_swatch_config": "BabyPink:#FFC0CB\nBottleGreen:#006A4E\nNavyBlue:#000080",
     "show_vendor": false,
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "tall_crop",
